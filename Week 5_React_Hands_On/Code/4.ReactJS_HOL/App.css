@@ -1,0 +1,26 @@
+.App {
+  text-align: center;
+  padding: 20px;
+  background-color: #131D4F;
+}
+
+.posts-container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
+h1{
+  color: white;
+}
+
+.post {
+  margin-bottom: 30px;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: #EFE4D2;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
