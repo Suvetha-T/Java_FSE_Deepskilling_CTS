@@ -1,0 +1,86 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.content-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+
+.st2, .v1, .mystyle1 {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  margin-bottom: 20px;
+}
+
+h1 {
+  color: #2c3e50;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 20px;
+}
+
+h3 {
+  color: #16a085;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+.tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.tabs button {
+  background-color: #ecf0f1;
+  color: #2c3e50;
+}
+
+.tabs button.active {
+  background-color: #3498db;
+  color: white;
+}
+
+.blog-content, .tab-content {
+  text-align: left;
+  padding: 15px;
+  background-color: white;
+  border-radius: 4px;
+  margin: 10px 0;
+}
+
+.additional-info, .course-highlight {
+  background-color: #e8f4f8;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+}
